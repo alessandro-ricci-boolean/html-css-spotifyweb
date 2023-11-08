@@ -4,3 +4,47 @@
     box-sizing: border-box
 }
 
+.top{
+    height: calc(100vh - 75px);
+    background-color: #141922;
+}
+
+.top-content{
+    height: 100%;
+}
+
+.bottom{
+    height: 75px;
+    background-color: #282828;
+}
+
+.sidebar{
+    width: 200px;
+    height: 100%;
+    background-color: black;
+}
+
+ul{
+    color: #717171;
+}
+
+.logo{
+    width: 150px;
+    padding: 10px;
+}
+
+.side-icon{
+    width: 50px;
+    padding: 10px;
+}
+
+.topbar{
+    height: 75px;
+    background-color: yellow;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
