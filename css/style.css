@@ -1,7 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat";
 }
 
 .top{
@@ -11,6 +15,7 @@
 
 .top-content{
     height: 100%;
+    display: flex;
 }
 
 .bottom{
@@ -26,6 +31,11 @@
 
 ul{
     color: #717171;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
 }
 
 .logo{
@@ -46,5 +56,21 @@ ul{
 .content{
     width: 100%;
     height: 100%;
-    background-color: green;
+    display: flex;
+}
+
+.title{
+    color: white;
+}
+
+.subtitle{
+    color: #7d7f84;
+}
+
+li:hover{
+    color: white;
+}
+
+.cover{
+    color: purple;
 }
