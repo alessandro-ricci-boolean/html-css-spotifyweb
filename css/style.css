@@ -71,6 +71,11 @@ li:hover{
     color: white;
 }
 
-.cover{
-    color: purple;
+.metal-v:hover{
+    background-color: black;
+}
+
+.main-buttons{
+    color: white;
+    
 }
